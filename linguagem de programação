@@ -1,0 +1,21 @@
+Python:
+   Sintaxe limpa e legível, o que a torna fácil de aprender, é uma linguagem de programação interpretada e de alto nível, o que significa que o código pode ser executado linha por linha sem a necessidade de compilação, amplamente utilizada em uma variedade de domínios, como desenvolvimento web, ciência de dados, automação, aprendizado de máquina e muitos outros. Suporta paradigmas de programação múltiplos, incluindo orientação a objetos, programação funcional e programação procedural.
+JavaScript:
+   Linguagem de script predominantemente usada para desenvolvimento web. Executada no lado do cliente em navegadores da web para interatividade em páginas web dinâmicas, também é utilizada no lado do servidor, por meio de ambientes como Node.js, para criar aplicativos web completos. é uma linguagem de tipagem dinâmica e fracamente tipada, o que significa que as variáveis podem ser de tipos diferentes sem precisar serem explicitamente declaradas.
+Java:
+   Uma linguagem de programação de propósito geral, conhecida por sua portabilidade, segurança e robustez. Usa o conceito de máquina virtual Java (JVM), o que significa que o código Java é compilado em bytecode que pode ser executado em qualquer dispositivo que tenha uma JVM instalada. Ampla aplicação em desenvolvimento de software corporativo, aplicativos móveis (Android) e desenvolvimento de jogos.É uma linguagem fortemente tipada, o que significa que as variáveis devem ser declaradas com um tipo específico e não podem mudar de tipo posteriormente.
+
+2. exemplo de um dos codigos criados:
+// Este é um comentário de uma linha em JavaScript
+
+/* 
+   Este é um comentário de várias linhas em JavaScript
+*/
+
+// Definindo uma função simples em JavaScript
+function saudacao() {
+    console.log("oi, tudo bem?");
+}
+
+// Chamando a função definida acima
+saudacao();
