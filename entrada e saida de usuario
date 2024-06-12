@@ -1,0 +1,59 @@
+print('ola','mundo',sep='-')
+print('ola','mundo',end='!\n')
+print("18", "04", "2023", sep="/") 
+print("isabelle", "ogawa", "email", sep="; ")
+print("Loading", end=" ")
+print("[OK]")
+#nome=input("digite seu nome: ")
+#print("Oii", nome)
+#itens = input("Digite itens separados por vírgula: ").split(',')
+#print("Itens:", itens)
+#idade = int(input("Digite sua idade: "))
+#print("Daqui a cinco anos, você terá", idade + 5, "anos.")
+#altura = float(input("Digite sua altura em metros: "))
+#print("Sua altura é", altura, "metros
+def captura_loop():
+    print("Digite números para adicionar à lista (digite 'done' para terminar):")
+    numeros = []
+    while True:
+        entrada = input()
+        if entrada.lower() == 'done':
+            break
+        else:
+            numeros.append(int(entrada))
+    print("Números coletados:", numeros)
+def imprimir_informacoes(nome, idade, cidade):
+    print("Nome:", nome, sep=" ", end=", ")
+    print("Idade:", idade, sep=" ", end=", ")
+    print("Cidade:", cidade, sep=" ", end=".")
+
+# Exemplo de uso da função
+imprimir_informacoes("caio", 22, "São Paulo")
+def calcular_operacao():
+    # Solicitar ao usuário dois números e a operação desejada
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+
+    # Verificar a operação e calcular o resultado
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        if num2 != 0:  # Verificar se o segundo número não é zero para evitar divisão por zero
+            resultado = num1 / num2
+        else:
+            print("Erro: Divisão por zero!")
+            return  # Encerrar a função se houver divisão por zero
+    else:
+        print("Operação inválida!")
+        return  # Encerrar a função se a operação for inválida
+
+    # Imprimir o resultado
+    print("O resultado de", num1, operacao, num2, "é:", resultado)
+
+# Exemplo de uso da função
+calcular_operacao()
